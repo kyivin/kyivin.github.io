@@ -1,0 +1,13 @@
+# Site settings
+title: Kyiv Tours
+email: info@inkyiv.com
+description: > 
+  Awesome description
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://inkyiv.com" # the base hostname & protocol for your site
+baseurl: ""
+twitter_username: jekyllrb
+github_username:  inkyiv
+
+# Build settings
+markdown: kramdown

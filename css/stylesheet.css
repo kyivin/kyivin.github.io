@@ -15,6 +15,14 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.a-hdr {
+  color: #fff;
+}
+.a-hdr:hover {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -61,11 +69,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 2rem 3rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 2rem 3rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
@@ -221,6 +229,7 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
+  clear: both;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }

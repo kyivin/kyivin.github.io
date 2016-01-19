@@ -1,0 +1,9 @@
+.gallery {
+  margin: 0 auto;
+}
+
+.gallery-item {
+  float: left;
+  width: 250px;
+  margin-bottom: 20px;
+}
