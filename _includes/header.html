@@ -1,13 +1,21 @@
 <header>
     <section class="page-header">
-      <h1 class="project-name"><a class="a-hdr" href="{{site.baseurl}}/">{{ site.title }}</a></h1>
-      <h2 class="project-tagline"></h2>
-
-        {% for page in site.pages %}
-          {% if page.title %} 
-          <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+        <h1 class="project-name"><a class="a-hdr" href="{{site.baseurl | append: '/' | append: site.index[page.lang] }}">{{ site.title[page.lang] }}</a></h1>
+        <h2 class="project-tagline"></h2>
+      	{% assign pages=site.pages | where:"lang", page.lang %}
+        {% for page in pages %}
+            {% if page.title %} 
+            <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
         {% endfor %}
 
+		<div style="text-align: right; line-height: 2em">
+		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		{% for page in pages %}
+		  	<a href="{{ page.url }}" class="a-hdr">{{ page.lang }}</a>
+		{% endfor %}
+		</div>
+
     </section>
+
 </header>

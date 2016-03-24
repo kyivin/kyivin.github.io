@@ -1,13 +1,18 @@
 # Site settings
-title: Kyiv Tours
+title:
+  en: Kyiv Tours
+  ua: Тури в Києві
 email: inkyiv.info@gmail.com
-description: > 
-  Awesome description
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://inkyiv.com" # the base hostname & protocol for your site
+description:
+  en: Awesome description
+  ua: Опис
+index:
+  en:
+  ua: indexua.html
 baseurl: ""
-twitter_username: jekyllrb
-github_username:  inkyiv
+url: "http://inkyiv.com"
+baseurl: ""
+github_username: inkyiv
 
 # Build settings
 markdown: kramdown

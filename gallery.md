@@ -2,6 +2,8 @@
 layout: page
 title: Gallery
 permalink: /gallery/
+ref: gallery
+lang: en
 ---
 
 <div class="gallery js-isotope" data-isotope-options='{ "itemSelector": ".gallery-item", "layoutMode": "masonry", "masonry": { "columnWidth": 250, "isFitWidth": "true", "gutter": 40} }'>
