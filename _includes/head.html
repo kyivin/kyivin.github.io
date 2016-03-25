@@ -11,7 +11,8 @@
   <link rel="stylesheet" type="text/css" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}" media="screen">
   <link rel="stylesheet" type="text/css" href="{{ "/css/github-light.css" | prepend: site.baseurl }}" media="screen">
   <link rel="stylesheet" type="text/css" href="{{ "/css/gallery.css" | prepend: site.baseurl }}" media="screen">
-  <link rel="stylesheet" type="text/css" href="{{ "/css/swipebox.min.css" | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ "/css/photoswipe.css" | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ "/css/default-skin/default-skin.css" | prepend: site.baseurl }}" media="screen">
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
@@ -19,10 +20,11 @@
   {% endfor %}
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>  
-  <script src="{{ "/js/jquery.swipebox.min.js" | prepend: site.baseurl }}"></script>  
   <script src="{{ "/js/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>  
   <script src="{{ "/js/isotope.pkgd.min.js" | prepend: site.baseurl }}"></script>  
   <script src="{{ "/js/img-loader.js" | prepend: site.baseurl }}"></script>  
+  <script src="{{ "/js/photoswipe.min.js" | prepend: site.baseurl }}"></script>  
+  <script src="{{ "/js/photoswipe-ui-default.min.js" | prepend: site.baseurl }}"></script>  
   
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
