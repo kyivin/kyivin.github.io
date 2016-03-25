@@ -15,4 +15,6 @@ $(document).ready( function() {
     $container.isotope('layout');
   });  
 
+  $('.swipebox').swipebox();
+
 });
