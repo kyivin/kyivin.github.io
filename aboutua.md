@@ -2,7 +2,7 @@
 layout: page
 title: Про нас
 permalink: /aboutua/
-ref: aboutua
+ref: about
 lang: ua
 ---
 

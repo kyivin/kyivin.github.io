@@ -6,7 +6,7 @@ ref: gallery
 lang: en
 ---
 
-<div class="gallery js-isotope" data-isotope-options='{ "itemSelector": ".gallery-item", "layoutMode": "masonry", "masonry": { "columnWidth": 250, "isFitWidth": "true", "gutter": 40} }'>
+<div class="gallery">
   {% for item in site.data.images %}
     <div class="gallery-item">
       <a href="{{ item.src | prepend: "/images/" | prepend: site.baseurl }}">
