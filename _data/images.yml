@@ -1,31 +1,31 @@
-- src: "dummy_image_0.jpg"
-  thumb: "dummy_image_thumb_0.jpg"
-  alt: "dummy_image_0"
-  title: "dummy_image_0"
+- src: "image1.jpg"
+  thumb: "image1_thumb.jpg"
+  alt: "image1"
+  title: "image1"
   width: 1800
   height: 1200
-- src: "dummy_image_1.jpg"
-  thumb: "dummy_image_thumb_1.jpg"
-  alt: "dummy_image_1"
-  title: "dummy_image_1"
+- src: "image2.jpg"
+  thumb: "image2_thumb.jpg"
+  alt: "image2"
+  title: "image2"
   width: 1800
   height: 1200
-- src: "dummy_image_2.jpg"
-  thumb: "dummy_image_thumb_2.jpg"
-  alt: "dummy_image_2"
-  title: "dummy_image_2"
+- src: "image3.jpg"
+  thumb: "image3_thumb.jpg"
+  alt: "image3"
+  title: "image3"
   width: 1800
   height: 1200
-- src: "dummy_image_3.jpg"
-  thumb: "dummy_image_thumb_3.jpg"
-  alt: "dummy_image_3"
-  title: "dummy_image_3"
+- src: "image4.jpg"
+  thumb: "image4_thumb.jpg"
+  alt: "image4"
+  title: "image4"
   width: 1800
   height: 1200
-- src: "dummy_image_4.jpg"
-  thumb: "dummy_image_thumb_4.jpg"
-  alt: "dummy_image_4"
-  title: "dummy_image_4"
+- src: "image5.jpg"
+  thumb: "image5_thumb.jpg"
+  alt: "image5"
+  title: "image5"
   width: 1800
   height: 1200
 
