@@ -8,6 +8,6 @@ $( function() {
       }
     });
 
-  var iso = $container.data('gallery');
+  var iso = $container.data('isotope');
   $container.isotope('reveal', iso.items );
 });
