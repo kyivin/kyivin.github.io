@@ -6,9 +6,9 @@ ref: pricing
 lang: en
 ---
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<div id="range"></div>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Test Test Test Test Test Test Test Test Test Test 
+<script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 

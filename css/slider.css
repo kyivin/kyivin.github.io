@@ -1,0 +1,12 @@
+#range {
+	width: 60%;
+	margin: 0 auto 60px auto;
+}
+
+.noUi-marker-horizontal.noUi-marker-large {
+    height: 13px;
+}
+
+.noUi-value-horizontal {
+    padding-top: 15px;
+}
