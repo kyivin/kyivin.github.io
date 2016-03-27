@@ -33,20 +33,28 @@ $( document ).ready(function() {
 		price_prm = [380, 370, 360, 350, 340, 330, 320, 310];
 	}
 
+	function setOrderValues(pricingPlan) {
+		var span;
+		switch(pricingPlan) {
+			case "Econom": 
+				span=ecoSpan;
+				if (lang=="ua") pricingPlan = "Економ"
+				break;
+			case "Standard":
+				span=stdSpan;
+				if (lang=="ua") pricingPlan = "Стандарт"
+				break;
+			case "Premium":
+				span=prmSpan;
+				if (lang=="ua") pricingPlan = "Преміум"
+				break;
+		}
 
-	// When the slider value changes, update the input and span
-	range.noUiSlider.on('update', function( values, handle ) {
-		ecoSpan.innerHTML = price_eco[(values[handle] | 0)-2];
-		stdSpan.innerHTML = price_std[(values[handle] | 0)-2];
-		prmSpan.innerHTML = price_prm[(values[handle] | 0)-2];
-	});	
-
-	$( "#eco-btn" ).click(function() {
-		document.getElementById('pricing-plan').innerHTML = "Econom";
-		document.getElementsByName('pricing-plan')[0].value = "Econom";
+		document.getElementById('pricing-plan').innerHTML = pricingPlan;
+		document.getElementsByName('pricing-plan')[0].value = pricingPlan;
 		document.getElementById('guests-number').innerHTML = range.noUiSlider.get() | 0;
 		document.getElementsByName('guests-number')[0].value = range.noUiSlider.get() | 0;
-		document.getElementById('price').innerHTML = (range.noUiSlider.get() | 0)*(ecoSpan.innerHTML | 0);
+		document.getElementById('price').innerHTML = (range.noUiSlider.get() | 0)*(span.innerHTML | 0);
 		if (lang=="en") {
 			document.getElementById('price').innerHTML += " $";
 		} else {
@@ -55,7 +63,25 @@ $( document ).ready(function() {
 		document.getElementsByName('price')[0].value = document.getElementById('price').innerHTML
 
 		document.getElementById('submit-form').style.display = "block";
+	}
+
+	$( "#eco-btn" ).click(function() {
+		setOrderValues("Econom")
 	});
+	$( "#std-btn" ).click(function() {
+		setOrderValues("Standard")
+	});
+	$( "#prm-btn" ).click(function() {
+		setOrderValues("Premium")
+	});
+
+	// When the slider value changes, update the input and span
+	range.noUiSlider.on('update', function( values, handle ) {
+		ecoSpan.innerHTML = price_eco[(values[handle] | 0)-2];
+		stdSpan.innerHTML = price_std[(values[handle] | 0)-2];
+		prmSpan.innerHTML = price_prm[(values[handle] | 0)-2];
+		document.getElementById('submit-form').style.display = "none";
+	});	
 
 });
 
