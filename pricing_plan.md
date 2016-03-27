@@ -6,7 +6,7 @@ ref: pricing
 lang: en
 ---
 
-Select the number of people who are going to attend the tour as the price depends on it.
+Select the number of people who are going to attend the tour as the price of one day per one person depends on it.
 
 <div id="range"></div>
 

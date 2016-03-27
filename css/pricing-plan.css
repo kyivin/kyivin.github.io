@@ -4,7 +4,6 @@
   margin-top: 30px;
   font: 13px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  padding: 10px;
 }
 
 .btn-row {
@@ -80,7 +79,7 @@
 .comparison .product {
   background: #3FB8AF;
   height: 40px;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 .comparison .price-info {
@@ -93,7 +92,7 @@
 }
 
 .comparison .price-now span {
-  font-size: 22px;
+  font-size: 21px;
   color: #545454;
 }
 
@@ -129,7 +128,7 @@
     letter-spacing: 0px;
   }
   .comparison .price-now span {
-    font-size: 32px;
+    font-size: 22px;
   }
   .comparison .price-now p {
     display: block;
@@ -180,7 +179,7 @@
     display: block;
   }
   .comparison .price-now span {
-    font-size: 24px;
+    font-size: 22px;
   }
   .comparison .qbse {
     font-size: 1.2em;
