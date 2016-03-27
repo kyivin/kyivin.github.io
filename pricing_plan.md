@@ -183,8 +183,8 @@ Select the number of people who are going to attend the tour as the price of one
     <h2 class="inp">Order</h2>
     <p class="inp"><b>Pricing plan:</b></p><p class="inp-inp" id="pricing-plan" ></p>
     <p class="inp"><b>Number of guests:</b></p><p class="inp-inp" id="guests-number"></p>
-    <p class="inp"><b>Overall price:</b></p><p class="inp" id="price"></p>
-    <h3 class="inp">Input your email:</h3>
+    <p class="inp"><b>Overall price:</b></p><p class="inp-inp" id="price"></p>
+    <h3 class="inp" style="float:left;">Input your email:</h3>
     <input id="email" class="input" type="email" name="_replyto" />
   </div>
   <div class="input-row">

@@ -12,7 +12,7 @@
 }
 
 #submit-form {
-	width: 60%;
+	width: 80%;
 	padding: 0px 10px 10px 10px;
 	margin: 0 auto;
 }
@@ -40,8 +40,13 @@ p.inp, h3.inp, h2.inp, p.inp-inp {
 	padding-bottom: 5px;
 }
 
+inp-inp {
+	width: 100%;
+	float: left;
+}
+
 p.inp {
-	width: 210px;
+	width: 70%;
 	float: left;
 }
 
