@@ -10,3 +10,43 @@
 .noUi-value-horizontal {
     padding-top: 15px;
 }
+
+#submit-form {
+	width: 60%;
+	padding: 0px 10px 10px 10px;
+	margin: 0 auto;
+}
+
+.input-row {
+	margin: 5px;
+}
+
+.input {
+	width: 100%;
+	border:solid 1px #ccc;
+}
+
+.btn-input {
+	margin: 5px 5px 5px 0px !important;
+}
+
+textarea.input {
+	resize: none;
+	height: 150px;
+}
+
+p.inp, h3.inp, h2.inp, p.inp-inp {
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+p.inp {
+	width: 210px;
+	float: left;
+}
+
+.input:focus {
+	border: 1px solid #3FB8AF;
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;	
+}

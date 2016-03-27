@@ -23,17 +23,17 @@ Select the number of people who are going to attend the tour as the price of one
       <tr>
         <th>Price / day / person</th>
         <th class="price-info">
-          <div class="price-now"><span id="price_eco">$ Price</span>
+          <div class="price-now"><span id="price-eco">$ Price</span>
           <span> $</span>
           </div>
         </th>
         <th class="price-info">
-          <div class="price-now"><span id="price_std">$ Price</span>
+          <div class="price-now"><span id="price-std">$ Price</span>
           <span> $</span>
           </div>
         </th>
         <th class="price-info">
-          <div class="price-now"><span id="price_prm">$ Price</span>
+          <div class="price-now"><span id="price-prm">$ Price</span>
           <span> $</span>
           </div>
         </th>
@@ -162,9 +162,9 @@ Select the number of people who are going to attend the tour as the price of one
       </tr>
       <tr class="compare-row">
         <td></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
+        <td><a id="eco-btn" href="/" onclick="return false;" class="btn btn-row">Order<span class="hide-mobile"></span></a></td>
+        <td><a id="std-btn" href="/" onclick="return false;" class="btn btn-row">Order<span class="hide-mobile"></span></a></td>
+        <td><a id="prm-btn" href="/" onclick="return false;" class="btn btn-row">Order<span class="hide-mobile"></span></a></td>
       </tr>
     </tbody>
   </table>
@@ -173,4 +173,26 @@ Select the number of people who are going to attend the tour as the price of one
 
 <script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  
 
+<form id="submit-form" style="display:none" action="http://formspree.io/inkyiv.info@gmail.com" method="POST">
+  <div class="input-row">
+    <input type="hidden" name="_next" value="{{ site.baseurl }}/about/" />
+    <input id="subject" type="hidden" name="_subject" />
+    <input type="hidden" name="pricing-plan" />
+    <input type="hidden" name="guests-number" />
+    <input type="hidden" name="price" />
+    <h2 class="inp">Order</h2>
+    <p class="inp"><b>Pricing plan:</b></p><p class="inp-inp" id="pricing-plan" ></p>
+    <p class="inp"><b>Number of guests:</b></p><p class="inp-inp" id="guests-number"></p>
+    <p class="inp"><b>Overall price:</b></p><p class="inp" id="price"></p>
+    <h3 class="inp">Input your email:</h3>
+    <input id="email" class="input" type="email" name="_replyto" />
+  </div>
+  <div class="input-row">
+    <h3 class="inp">Additional comments:</h3>
+    <textarea class="input" name="comments"></textarea>
+  </div>
+  <div class="input-row">
+    <input type="button" class="btn btn-row btn-input" value="Send" onclick="placeOrder();" />
+  </div>
+</form>
 

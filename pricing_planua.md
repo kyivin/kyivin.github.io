@@ -23,17 +23,17 @@ lang: ua
       <tr>
         <th>Цані за день на людину</th>
         <th class="price-info">
-          <div class="price-now"><span id="price_eco">$ Price</span>
+          <div class="price-now"><span id="price-eco">$ Price</span>
           <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
-          <div class="price-now"><span id="price_std">$ Price</span>
+          <div class="price-now"><span id="price-std">$ Price</span>
           <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
-          <div class="price-now"><span id="price_prm">$ Price</span>
+          <div class="price-now"><span id="price-prm">$ Price</span>
           <span> ₴</span>
           </div>
         </th>
