@@ -1,40 +1,40 @@
 ---
 layout: page
-title: Plans&Pricing
-permalink: /pricing/
+title: Вартість турів
+permalink: /pricingua/
 ref: pricing
-lang: en
+lang: ua
 ---
 
-Select the number of people who are going to attend the tour as the price depends on it.
+Оберіть кількість людей, що бажають відвідати тур, оскільки ціна туру залежить від кількості.
+
 
 <div id="range"></div>
-
 
 <div class="comparison">
   <table>
     <thead>
       <tr>
         <th class="tl tl2"></th>
-        <th class="product" style="border-top-left-radius: 5px; border-left:0px;">Econom</th>
-        <th class="product">Standard</th>
-        <th class="product" style="border-top-right-radius: 5px; border-right:0px;">Premium</th>
+        <th class="product" style="border-top-left-radius: 5px; border-left:0px;">Економ</th>
+        <th class="product">Стандарт</th>
+        <th class="product" style="border-top-right-radius: 5px; border-right:0px;">Преміум</th>
       </tr>
       <tr>
-        <th>Price / day / person</th>
+        <th>Цані за день на людину</th>
         <th class="price-info">
           <div class="price-now"><span id="price_eco">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price_std">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price_prm">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
       </tr>
@@ -160,11 +160,11 @@ Select the number of people who are going to attend the tour as the price depend
       <tr>
         <td> </td>
       </tr>
-      <tr class="compare-row">
+      <tr>
         <td></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
-        <td><a href="{{ site.baseurl }}" class="btn btn-row">Oder<span class="hide-mobile"></span></a></td>
+        <td><a href="{{ site.baseurl }}" class="btn btn-row">button<span class="hide-mobile"></span></a></td>
+        <td><a href="{{ site.baseurl }}" class="btn btn-row">button<span class="hide-mobile"></span></a></td>
+        <td><a href="{{ site.baseurl }}" class="btn btn-row">button<span class="hide-mobile"></span></a></td>
       </tr>
     </tbody>
   </table>
