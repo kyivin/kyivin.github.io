@@ -24,17 +24,17 @@ lang: ua
         <th>Ціна / день / людина</th>
         <th class="price-info">
           <div class="price-now"><span id="price-eco">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-std">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-prm">$ Price</span>
-          <span> $</span>
+          <span> ₴</span>
           </div>
         </th>
       </tr>
@@ -171,21 +171,34 @@ lang: ua
 
 </div>
 
-<script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  
+
 
 <form id="submit-form" style="display:none" action="http://formspree.io/inkyiv.info@gmail.com" method="POST">
   <div class="input-row">
-    <input type="hidden" name="_next" value="{{ site.baseurl }}/about/" />
+    <h2 class="inp">Замовлення</h2>
+  </div>
+  <div class="input-row">
+    <input type="hidden" name="_next" value="{{ site.baseurl }}/ackua/" />
     <input id="subject" type="hidden" name="_subject" />
     <input type="hidden" name="pricing-plan" />
     <input type="hidden" name="guests-number" />
+    <input type="hidden" name="duration" />
     <input type="hidden" name="price" />
-    <h2 class="inp">Замовлення</h2>
+  </div>
+  <div class="input-row">
+    <div><p class="inp"><b>2 чи 3-денний тур:</b></p></div>
+    <div id="days"></div>
+  </div>
+  <div class="input-row">
     <p class="inp"><b>Тип туру:</b></p><p class="inp-inp" id="pricing-plan" ></p>
     <p class="inp"><b>Кількість людей:</b></p><p class="inp-inp" id="guests-number"></p>
     <p class="inp"><b>Загальна ціна:</b></p><p class="inp-inp" id="price"></p>
     <h3 class="inp" style="float:left;">Введіть свою електронну адресу:</h3>
-    <input id="email" class="input" type="email" name="_replyto" />
+    <input id="email" class="input" type="email" name="_replyto" required />
+    <h3 class="inp" style="float:left;">Введіть номер телефону:</h3>
+    <input class="input" type="tel" name="phone" required />
+    <h3 class="inp" style="float:left;">Дата прибуття:</h3>
+    <input class="input" type="date" name="date" />
   </div>
   <div class="input-row">
     <h3 class="inp">Додаткові коментарі:</h3>
@@ -195,3 +208,5 @@ lang: ua
     <input type="button" class="btn btn-row btn-input" value="Send" onclick="placeOrder();" />
   </div>
 </form>
+
+<script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  

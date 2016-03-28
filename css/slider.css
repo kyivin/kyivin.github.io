@@ -19,6 +19,8 @@
 
 .input-row {
 	margin: 5px;
+	float:left;
+	width:100%;
 }
 
 .input {
@@ -54,4 +56,10 @@ p.inp {
 	border: 1px solid #3FB8AF;
     outline: none !important;
     box-shadow: 0 0 10px #719ECE;	
+}
+
+#days {
+	width: 50px;
+	float: left;
+	margin: 0 auto 45px auto;
 }

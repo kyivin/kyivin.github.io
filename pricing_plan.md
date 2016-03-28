@@ -171,21 +171,32 @@ Select the number of people who are going to attend the tour as the price of one
 
 </div>
 
-<script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  
-
 <form id="submit-form" style="display:none" action="http://formspree.io/inkyiv.info@gmail.com" method="POST">
   <div class="input-row">
-    <input type="hidden" name="_next" value="{{ site.baseurl }}/about/" />
+    <h2 class="inp">Order</h2>
+  </div>
+  <div class="input-row">
+    <input type="hidden" name="_next" value="{{ site.baseurl }}/ack/" />
     <input id="subject" type="hidden" name="_subject" />
     <input type="hidden" name="pricing-plan" />
     <input type="hidden" name="guests-number" />
+    <input type="hidden" name="duration" />
     <input type="hidden" name="price" />
-    <h2 class="inp">Order</h2>
+  </div>
+  <div class="input-row">
+    <div><p class="inp"><b>2 or 3-days tour:</b></p></div>
+    <div id="days"></div>
+  </div>
+  <div class="input-row">
     <p class="inp"><b>Pricing plan:</b></p><p class="inp-inp" id="pricing-plan" ></p>
     <p class="inp"><b>Number of guests:</b></p><p class="inp-inp" id="guests-number"></p>
     <p class="inp"><b>Overall price:</b></p><p class="inp-inp" id="price"></p>
     <h3 class="inp" style="float:left;">Input your email:</h3>
-    <input id="email" class="input" type="email" name="_replyto" />
+    <input id="email" class="input" type="email" name="_replyto" required />
+    <h3 class="inp" style="float:left;">Input your phone number:</h3>
+    <input class="input" type="tel" name="phone" required />
+    <h3 class="inp" style="float:left;">Day of arrival:</h3>
+    <input class="input" type="date" name="date" />
   </div>
   <div class="input-row">
     <h3 class="inp">Additional comments:</h3>
@@ -196,3 +207,4 @@ Select the number of people who are going to attend the tour as the price of one
   </div>
 </form>
 
+<script src="{{ "/js/slider.js" | prepend: site.baseurl }}"></script>  

@@ -4,12 +4,15 @@
         <h2 class="project-tagline"></h2>
       	{% assign pages=site.pages | where:"lang", page.lang %}
         {% for page in pages %}
-            {% if page.title %} 
+            {% if page.title %}
+                {% if page.url == '/ack/' or page.url == '/ackua/' %}
+                    {% continue %} 
+                {% endif %}
             <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
         {% endfor %}
 
-		<div style="text-align: right; line-height: 2em">
+		<div class="lang">
 		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 		{% for page in pages %}
 		  	<a href="{{ page.url }}" class="a-hdr">{{ page.lang }}</a>

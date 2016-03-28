@@ -1,5 +1,22 @@
 $( document ).ready(function() {
 	var range = document.getElementById('range');
+	var days = document.getElementById('days');
+
+	noUiSlider.create(days, {
+		start: 2,
+		step: 1,
+		connect: 'lower',
+		range: {
+			'min': 2,
+			'max': 3
+		},
+		pips: { // Show a scale with the slider
+			mode: 'values',
+			values: [2, 3],
+			stepped: true,
+			density: 50
+		}
+	})
 
 	noUiSlider.create(range, {
 		start: [ 2 ],
@@ -54,14 +71,13 @@ $( document ).ready(function() {
 		document.getElementsByName('pricing-plan')[0].value = pricingPlan;
 		document.getElementById('guests-number').innerHTML = range.noUiSlider.get() | 0;
 		document.getElementsByName('guests-number')[0].value = range.noUiSlider.get() | 0;
-		document.getElementById('price').innerHTML = (range.noUiSlider.get() | 0)*(span.innerHTML | 0);
+		document.getElementById('price').innerHTML = (range.noUiSlider.get() | 0)*(span.innerHTML | 0)*(days.noUiSlider.get() | 0);
 		if (lang=="en") {
 			document.getElementById('price').innerHTML += " $";
 		} else {
-		document.getElementById('price').innerHTML += " ₴";
+			document.getElementById('price').innerHTML += " ₴";
 		}
-		document.getElementsByName('price')[0].value = document.getElementById('price').innerHTML
-
+		document.getElementsByName('price')[0].value = document.getElementById('price').innerHTML;
 		document.getElementById('submit-form').style.display = "block";
 	}
 
@@ -81,6 +97,20 @@ $( document ).ready(function() {
 		stdSpan.innerHTML = price_std[(values[handle] | 0)-2];
 		prmSpan.innerHTML = price_prm[(values[handle] | 0)-2];
 		document.getElementById('submit-form').style.display = "none";
+	});	
+
+	days.noUiSlider.on('update', function( values, handle ) {
+		var str = document.getElementById('price').innerHTML;
+		var last = str.substring(str.length-2);
+		str = str.slice(0, -2);
+		if (values[handle]==2) {
+			document.getElementById('price').innerHTML = 
+				((str | 0) * 2 / 3) + last; 
+		} else {
+			document.getElementById('price').innerHTML = 
+				((str | 0) * 3 / 2) + last;
+		}
+		document.getElementsByName('duration')[0].value = (values[handle] | 0) + " days";
 	});	
 
 });
