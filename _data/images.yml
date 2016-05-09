@@ -1,31 +1,37 @@
-- src: "image1.jpg"
-  thumb: "image1_thumb.jpg"
-  alt: "image1"
-  title: "image1"
-  width: 1800
+- src: "scenery.jpg"
+  thumb: "scenery_thumb.jpg"
+  alt: "Scenery"
+  title: "Scenery"
+  width: 1600
   height: 1200
-- src: "image2.jpg"
-  thumb: "image2_thumb.jpg"
-  alt: "image2"
-  title: "image2"
-  width: 1800
+- src: "bigroom.jpg"
+  thumb: "bigroom_thumb.jpg"
+  alt: "Big room"
+  title: "Big room"
+  width: 1600
   height: 1200
-- src: "image3.jpg"
-  thumb: "image3_thumb.jpg"
-  alt: "image3"
-  title: "image3"
-  width: 1800
+- src: "bigroom_night.jpg"
+  thumb: "bigroom_night_thumb.jpg"
+  alt: "Big room at night"
+  title: "Big room at night"
+  width: 1600
   height: 1200
-- src: "image4.jpg"
-  thumb: "image4_thumb.jpg"
-  alt: "image4"
-  title: "image4"
-  width: 1800
+- src: "smallroom.jpg"
+  thumb: "smallroom_thumb.jpg"
+  alt: "Small room"
+  title: "Small room"
+  width: 1600
   height: 1200
-- src: "image5.jpg"
-  thumb: "image5_thumb.jpg"
-  alt: "image5"
-  title: "image5"
-  width: 1800
+- src: "bathroom.jpg"
+  thumb: "bathroom_thumb.jpg"
+  alt: "Bathroom"
+  title: "Bathroom"
+  width: 1600
+  height: 1200
+- src: "hall.jpg"
+  thumb: "hall_thumb.jpg"
+  alt: "Hall"
+  title: "Hall"
+  width: 1600
   height: 1200
 
