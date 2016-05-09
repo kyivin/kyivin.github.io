@@ -1,14 +1,17 @@
 # Site settings
 title:
   en: Kyiv Tours
-  ua: Тури в Києві
+  ua: Тури у Києв
+  ru: Туры в Киев
 email: inkyiv.info@gmail.com
 description:
   en: Awesome description
   ua: Опис
+  ru: Описание
 index:
-  en:
+  en: indexen.html
   ua: indexua.html
+  ru:
 baseurl: ""
 url: "http://inkyiv.com"
 baseurl: ""
