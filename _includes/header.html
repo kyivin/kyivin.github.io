@@ -5,20 +5,23 @@
       	{% assign pages=site.pages | where:"lang", page.lang %}
         {% for page in pages %}
             {% if page.title %}
-                {% if page.url == '/ack/' or page.url == '/ackua/' %}
+                {% if page.url == '/ack/' or page.url == '/ackua/' or page.url == '/ackru/' %}
                     {% continue %} 
                 {% endif %}
             <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
         {% endfor %}
 
-		<div class="lang">
+        <br>
+        <br>
+        <br>
+		<!--<div class="lang">
 		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 		{% for page in pages %}
 		  	<a href="{{ page.url }}" class="a-hdr">{{ page.lang }}</a>
 		{% endfor %}
 		</div>
-
+        -->
     </section>
 
 </header>

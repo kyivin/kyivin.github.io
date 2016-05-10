@@ -56,14 +56,17 @@ $( document ).ready(function() {
 			case "Econom": 
 				span=ecoSpan;
 				if (lang=="ua") pricingPlan = "Економ"
+				if (lang=="ru") pricingPlan = "Эконом"
 				break;
 			case "Standard":
 				span=stdSpan;
 				if (lang=="ua") pricingPlan = "Стандарт"
+				if (lang=="ru") pricingPlan = "Стандарт"
 				break;
 			case "Premium":
 				span=prmSpan;
 				if (lang=="ua") pricingPlan = "Преміум"
+				if (lang=="ru") pricingPlan = "Премиум"
 				break;
 		}
 

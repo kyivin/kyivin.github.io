@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
-ref: about
+title: Excursions
+permalink: /excursions/
+ref: excursions
 lang: en
 ---
 
