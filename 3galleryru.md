@@ -27,7 +27,7 @@ lang: ru
 
 <p><b>Комплектация:</b> две большие двухъярусные кровати с ортопедическими матрасами, диван, прикроватные тумбы, шкаф, большой стол, торшер, кондиционер.</p>
 
-<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Прочие принадлежности</h3>
+<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Другие удобства</h3>
 
 <p>Также к Вашим услугам холодильник, электрочайник, посуда, столовые приборы, фен, полотенца, туалетные принадлежности, бесплатный интернет (Wi-Fi).</p>
 

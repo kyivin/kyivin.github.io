@@ -125,20 +125,20 @@ lang: ru
       </tr>
       <tr>
         <td> </td>
-        <td colspan="3">Завтрак (оплачивается отдельно)</td>
+        <td colspan="3">Завтрак (опционально)</td>
       </tr>
       <tr class="compare-row">
-        <td>Завтрак (оплачивается отдельно)</td>
+        <td>Завтрак (опционально)</td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
         <td> </td>
-        <td colspan="3">Ужин (оплачивается отдельно)</td>
+        <td colspan="3">Ужин (опционально)</td>
       </tr>
       <tr>
-        <td>Ужин (оплачивается отдельно)</td>
+        <td>Ужин (опционально)</td>
         <td><span>–</span></td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
@@ -179,7 +179,9 @@ lang: ru
     <p class="inp"><b>Тип тура:</b></p><p class="inp-inp" id="pricing-plan" ></p>
     <p class="inp"><b>Количество людей:</b></p><p class="inp-inp" id="guests-number"></p>
     <p class="inp"><b>Общая цена:</b></p><p class="inp-inp" id="price"></p>
-    <h3 class="inp" style="float:left;">Введите свой электронный адрес:</h3>
+    <h3 class="inp" style="float:left;">Введите имя контактного лица:</h3>
+    <input id="name" class="input" name="name" required />
+    <h3 class="inp" style="float:left;">Введите адрес электронной почты:</h3>
     <input id="email" class="input" type="email" name="_replyto" required />
     <h3 class="inp" style="float:left;">Введите номер телефона:</h3>
     <input class="input" type="tel" name="phone" required />
