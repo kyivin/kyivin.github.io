@@ -7,12 +7,14 @@
   {% else %}
   <meta name="description" content="{{ site.description[page.lang] }}">
   {% endif %}  
-  
+
   <meta name="keywords" content="{{site.mykeywords[page.lang]}}">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>{% if page.title %}{{ page.title }} - {{ site.title[page.lang] }}{% else %}{{ site.title[page.lang] }}{% endif %}</title>
 
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}">
+  
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="{{ "/css/normalize.css" | prepend: site.baseurl }}" media="screen">
   <link rel="stylesheet" type="text/css" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}" media="screen">
