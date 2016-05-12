@@ -107,7 +107,7 @@ lang: ru
         <td colspan="3">Расширенная экскурсионная программа</td>
       </tr>
       <tr class="compare-row">
-        <td>Расширенная экскурсионна программа</td>
+        <td>Расширенная экскурсионная программа</td>
         <td><span>–</span></td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
@@ -125,20 +125,20 @@ lang: ru
       </tr>
       <tr>
         <td> </td>
-        <td colspan="3">Завтрак (опционально)</td>
+        <td colspan="3">Завтраки (опционально)</td>
       </tr>
       <tr class="compare-row">
-        <td>Завтрак (опционально)</td>
+        <td>Завтраки (опционально)</td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
         <td> </td>
-        <td colspan="3">Ужин (опционально)</td>
+        <td colspan="3">Ужины (опционально)</td>
       </tr>
       <tr>
-        <td>Ужин (опционально)</td>
+        <td>Ужины (опционально)</td>
         <td><span>–</span></td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
