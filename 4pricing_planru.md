@@ -6,7 +6,7 @@ ref: pricing
 lang: ru
 ---
 
-Выберите количество людей, желающий посетить Киев: чем больше группа, тем дешевле цена на одного человека.
+Выберите количество людей, желающих посетить Киев: чем больше группа, тем дешевле цена на одного человека.
 
 <div id="range"></div>
 
@@ -20,7 +20,7 @@ lang: ru
         <th class="product" style="border-top-right-radius: 5px; border-right:0px;">Премиум</th>
       </tr>
       <tr>
-        <th>Цена / день / человек</th>
+        <th>Цена с человека в день</th>
         <th class="price-info">
           <div class="price-now"><span id="price-eco">$ Price</span>
           <span> ₴</span>

@@ -8,6 +8,10 @@ description:
   en: Awesome description
   ua: 2-х и 3-х дневные индивидуальные туры в Киев для небольших групп с проживанием и обширной экскурсионной программой
   ru: 2-х и 3-х дневные индивидуальные туры в Киев для небольших групп с проживанием и обширной экскурсионной программой
+mykeywords:
+  en: Kyiv tours excursions
+  ua: Київ тури екскурсії
+  ru: "Киев, экскурсии, туры, индивидуальный подход, дешево"
 index:
   en: indexen.html
   ua: indexua.html
@@ -19,3 +23,5 @@ github_username: inkyiv
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
