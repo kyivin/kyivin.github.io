@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Проживание
+description: Описание условий проживания и фотографии мини-гостиницы
 permalink: /galleryru/
 ref: gallery
 lang: ru

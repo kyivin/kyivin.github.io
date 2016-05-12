@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Заказать тур
+description: Страница заказа тура с ценами
 permalink: /pricingru/
 ref: pricing
 lang: ru

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Акции
+description: Сезонные акции и скидки
 permalink: /promoru/
 ref: promo
 lang: ru

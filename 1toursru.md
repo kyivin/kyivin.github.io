@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Туры
+description: Описание программ туров и особенностей предзаказа
 permalink: /toursru/
 ref: tours
 lang: ru
