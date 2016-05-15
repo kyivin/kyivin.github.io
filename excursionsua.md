@@ -3,7 +3,7 @@ layout: page
 title: Екскурсії
 permalink: /excursionsua/
 ref: excursions
-lang: ua
+lang: uk
 ---
 
 Тури

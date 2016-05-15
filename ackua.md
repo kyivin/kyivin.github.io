@@ -3,7 +3,7 @@ layout: page
 title: Замовлення відіслано
 permalink: /ackua/
 ref: ack
-lang: ua
+lang: uk
 ---
 
 <h3>Замовлення відіслано</h3>

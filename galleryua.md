@@ -3,7 +3,7 @@ layout: page
 title: Світлини
 permalink: /galleryua/
 ref: gallery
-lang: ua
+lang: uk
 ---
 
 <div class="gallery">

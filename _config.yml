@@ -1,20 +1,20 @@
 # Site settings
 title:
   en: Kyiv Tours
-  ua: Тури у Києв
+  uk: Тури у Києв
   ru: Туры в Киев
 email: inkyiv.info@gmail.com
 description:
   en: Awesome description
-  ua: 2-х и 3-х дневные индивидуальные туры в Киев для небольших групп с проживанием и обширной экскурсионной программой
+  uk: 2-х и 3-х дневные индивидуальные туры в Киев для небольших групп с проживанием и обширной экскурсионной программой
   ru: 2-х и 3-х дневные индивидуальные туры в Киев для небольших групп с проживанием и обширной экскурсионной программой
 mykeywords:
   en: Kyiv tours excursions
-  ua: Київ тури екскурсії
+  uk: Київ тури екскурсії
   ru: "Киев, экскурсии, туры, индивидуальный подход, дешево"
 index:
   en: indexen.html
-  ua: indexua.html
+  uk: indexua.html
   ru:
 baseurl: ""
 url: "http://inkyiv.com"
