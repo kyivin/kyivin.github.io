@@ -17,12 +17,12 @@ lang: ru
 
 <p><b>Проживание включено в стоимость туров.</b></p>
 
-<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Маленькая комната, 14 кв.м</h3>
+<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Комфорт комната, 14 кв.м</h3>
 
 <p>В комнате могут разместиться 2 или максимум 3 человека.</p>
 <p><b>Комплектация:</b> ортопедический двухспальный диван (могут разместиться как один так и два гостя), большое раскладное кресло (дополнительное, по необходимости, спальное место), телевизор, шкаф, другая мебель, кондиционер. Из этой комнаты есть выход на открытый летний балкон с панорамным видом.</p>
 
-<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Большая комната, 25 кв.м</h3>
+<h3><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Лаунж комната, 25 кв.м</h3>
 
 В комнате удобно могут разместиться 5, максимум 6 гостей.
 

@@ -149,9 +149,9 @@ lang: ru
       </tr>
       <tr class="compare-row">
         <td></td>
-        <td><a id="eco-btn" href="/" onclick="return false;" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
-        <td><a id="std-btn" href="/" onclick="return false;" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
-        <td><a id="prm-btn" href="/" onclick="return false;" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
+        <td><a id="eco-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
+        <td><a id="std-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
+        <td><a id="prm-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
       </tr>
     </tbody>
   </table>
@@ -162,7 +162,7 @@ lang: ru
 
 <form id="submit-form" style="display:none" action="http://formspree.io/inkyiv.info@gmail.com" method="POST">
   <div class="input-row">
-    <h2 class="inp">Заказ</h2>
+    <h2 class="inp"><a name="order" class="anchor" aria-hidden="true"></a>Заказ</h2>
   </div>
   <div class="input-row">
     <input type="hidden" name="_next" value="{{ site.baseurl }}/ackru/" />
