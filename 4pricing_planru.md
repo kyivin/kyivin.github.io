@@ -41,7 +41,7 @@ lang: ru
     </thead>
     <tbody>
       <tr>
-        <td></td>
+        <td> </td>
         <td colspan="3">Проживание</td>
       </tr>
       <tr class="compare-row">
@@ -79,7 +79,6 @@ lang: ru
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
-        </td>
       </tr>
       <tr>
         <td> </td>
@@ -90,7 +89,6 @@ lang: ru
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
-        </td>
       </tr>
       <tr>
         <td> </td>
@@ -101,7 +99,6 @@ lang: ru
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
-        </td>
       </tr>
       <tr>
         <td> </td>
@@ -112,7 +109,6 @@ lang: ru
         <td><span>–</span></td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
-        </td>
       </tr>
       <tr>
         <td> </td>
