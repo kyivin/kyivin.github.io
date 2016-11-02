@@ -31,7 +31,6 @@ $(document).ready( function() {
                       $size   = $(this).data('size').split('x'),
                       $width  = $size[0],
                       $height = $size[1];
-
                   var item = {
                       src : $href,
                       w   : $width,
@@ -44,7 +43,7 @@ $(document).ready( function() {
           }
 
       var items = getItems();
-      console.log(items.length);
+      //console.log(items.length);
 
       $.each(items, function(index, value) {
           image[index]     = new Image();
@@ -54,7 +53,7 @@ $(document).ready( function() {
       $pic.on('click', 'figure', function(event) {
           event.preventDefault();
           
-          var $index = $(this).index();
+          var $index = $(this).data('index');
           var options = {
               index: $index,
               bgOpacity: 0.7,

@@ -4,34 +4,67 @@
   title: "Scenery"
   width: 1600
   height: 1200
-- src: "bigroom.jpg"
-  thumb: "bigroom_thumb.jpg"
+  index: 0
+- src: "bigroom0.jpg"
+  thumb: "bigroom0_thumb.jpg"
   alt: "Big room"
   title: "Big room"
   width: 1600
   height: 1200
-- src: "bigroom_night.jpg"
-  thumb: "bigroom_night_thumb.jpg"
+  index: 1
+- src: "bigroom1.jpg"
+  thumb: "bigroom1_thumb.jpg"
   alt: "Big room at night"
   title: "Big room at night"
   width: 1600
   height: 1200
-- src: "smallroom.jpg"
-  thumb: "smallroom_thumb.jpg"
+  index: 2
+- src: "smallroom0.jpg"
+  thumb: "smallroom0_thumb.jpg"
+  alt: "Small room"
+  title: "Small room"
+  width: 1200
+  height: 1600
+  index: 3
+- src: "smallroom1.jpg"
+  thumb: "smallroom1_thumb.jpg"
   alt: "Small room"
   title: "Small room"
   width: 1600
   height: 1200
-- src: "bathroom.jpg"
-  thumb: "bathroom_thumb.jpg"
+  index: 4
+- src: "smallroom2.jpg"
+  thumb: "smallroom2_thumb.jpg"
+  alt: "Small room"
+  title: "Small room"
+  width: 1600
+  height: 1200
+  index: 5
+- src: "smallroom3.jpg"
+  thumb: "smallroom3_thumb.jpg"
+  alt: "Small room"
+  title: "Small room"
+  width: 1600
+  height: 1200
+  index: 6
+- src: "bathroom0.jpg"
+  thumb: "bathroom0_thumb.jpg"
+  alt: "Bathroom"
+  title: "Bathroom"
+  width: 1200
+  height: 1600
+  index: 7
+- src: "bathroom1.jpg"
+  thumb: "bathroom1_thumb.jpg"
   alt: "Bathroom"
   title: "Bathroom"
   width: 1600
   height: 1200
+  index: 8
 - src: "hall.jpg"
   thumb: "hall_thumb.jpg"
   alt: "Hall"
   title: "Hall"
   width: 1600
   height: 1200
-
+  index: 9

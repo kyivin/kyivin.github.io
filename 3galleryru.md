@@ -35,8 +35,8 @@ lang: ru
 <div class="gallery">
   {% for item in site.data.images %}
     <div class="gallery-item" itemscope itemtype="http://schema.org/ImageGallery">
-	  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    	  <a href="{{ item.src | prepend: "/img/" | prepend: site.baseurl }}" itemprop="contentUrl" data-size="1600x1067" title="{{ item.title }}">
+	  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-index="{{ item.index }}">
+    	  <a href="{{ item.src | prepend: "/img/" | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{ item.width }}x{{ item.height }}" title="{{ item.title }}">
         	  <img src="{{ item.thumb | prepend: "/img/" | prepend: site.baseurl }}" alt="{{ item.alt }}" class="gallery-image" itemprop="thumbnail"/>
       	  </a>
 	  </figure>
