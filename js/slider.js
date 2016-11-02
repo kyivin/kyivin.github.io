@@ -78,7 +78,7 @@ $( document ).ready(function() {
 		if (lang=="en") {
 			document.getElementById('price').innerHTML += " $";
 		} else {
-			document.getElementById('price').innerHTML += " ₴";
+			document.getElementById('price').innerHTML += "  ";
 		}
 		document.getElementsByName('price')[0].value = document.getElementById('price').innerHTML;
 		document.getElementById('submit-form').style.display = "block";

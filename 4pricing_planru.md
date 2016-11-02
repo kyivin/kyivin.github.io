@@ -7,7 +7,7 @@ ref: pricing
 lang: ru
 ---
 
-Выберите количество людей, желающих посетить Киев: чем больше группа, тем дешевле цена на одного человека.
+Выберите количество людей, желающих посетить Киев: чем больше группа, тем дешевле цена на одного человека. Стоимость туров указана в гривнах (UAH).
 
 <div id="range"></div>
 
@@ -24,17 +24,17 @@ lang: ru
         <th>Цена с человека в день</th>
         <th class="price-info">
           <div class="price-now"><span id="price-eco">$ Price</span>
-          <span> ₴</span>
+          <span>  </span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-std">$ Price</span>
-          <span> ₴</span>
+          <span>  </span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-prm">$ Price</span>
-          <span> ₴</span>
+          <span>  </span>
           </div>
         </th>
       </tr>
