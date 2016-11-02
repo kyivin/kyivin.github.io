@@ -24,17 +24,17 @@ lang: ru
         <th>Цена с человека в день</th>
         <th class="price-info">
           <div class="price-now"><span id="price-eco">$ Price</span>
-          <span>  </span>
+          <span> </span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-std">$ Price</span>
-          <span>  </span>
+          <span> </span>
           </div>
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-prm">$ Price</span>
-          <span>  </span>
+          <span> </span>
           </div>
         </th>
       </tr>
@@ -175,7 +175,7 @@ lang: ru
   <div class="input-row">
     <p class="inp"><b>Тип тура:</b></p><p class="inp-inp" id="pricing-plan" ></p>
     <p class="inp"><b>Количество людей:</b></p><p class="inp-inp" id="guests-number"></p>
-    <p class="inp"><b>Общая цена:</b></p><p class="inp-inp" id="price"></p>
+    <p class="inp"><b>Общая цена (UAH):</b></p><p class="inp-inp" id="price"></p>
     <h3 class="inp" style="float:left;">Введите имя контактного лица:</h3>
     <input id="name" class="input" name="name" required />
     <h3 class="inp" style="float:left;">Введите адрес электронной почты:</h3>

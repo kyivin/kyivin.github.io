@@ -75,11 +75,6 @@ $( document ).ready(function() {
 		document.getElementById('guests-number').innerHTML = range.noUiSlider.get() | 0;
 		document.getElementsByName('guests-number')[0].value = range.noUiSlider.get() | 0;
 		document.getElementById('price').innerHTML = (range.noUiSlider.get() | 0)*(span.innerHTML | 0)*(days.noUiSlider.get() | 0);
-		if (lang=="en") {
-			document.getElementById('price').innerHTML += " $";
-		} else {
-			document.getElementById('price').innerHTML += "  ";
-		}
 		document.getElementsByName('price')[0].value = document.getElementById('price').innerHTML;
 		document.getElementById('submit-form').style.display = "block";
 	}
@@ -104,14 +99,10 @@ $( document ).ready(function() {
 
 	days.noUiSlider.on('update', function( values, handle ) {
 		var str = document.getElementById('price').innerHTML;
-		var last = str.substring(str.length-2);
-		str = str.slice(0, -2);
 		if (values[handle]==2) {
-			document.getElementById('price').innerHTML = 
-				((str | 0) * 2 / 3) + last; 
+			document.getElementById('price').innerHTML = ((str | 0) * 2 / 3); 
 		} else {
-			document.getElementById('price').innerHTML = 
-				((str | 0) * 3 / 2) + last;
+			document.getElementById('price').innerHTML = ((str | 0) * 3 / 2);
 		}
 		document.getElementsByName('duration')[0].value = (values[handle] | 0) + " days";
 	});	
@@ -127,6 +118,14 @@ function placeOrder() {
 	if (!isEmail(document.getElementById("email").value)) {
 		 alert('Enter valid email address');
 		 return;
+	}
+	
+	var lang = document.documentElement.lang;
+	if (lang=="en") {
+		document.getElementsByName('price')[0].value += " USD";
+
+	} else {
+		document.getElementsByName('price')[0].value += " UAH";
 	}
 
 	document.getElementById("subject").value = "[New order] from " + 
