@@ -24,11 +24,11 @@ $( document ).ready(function() {
 		connect: 'lower',
 		range: {
 			'min': 2,
-			'max': 9
+			'max': 8
 		},
 		pips: { // Show a scale with the slider
 			mode: 'values',
-			values: [2, 3, 4, 5, 6, 7, 8, 9],
+			values: [2, 3, 4, 5, 6, 7, 8],
 			density: 6,
 			stepped: true
 		}
@@ -36,18 +36,15 @@ $( document ).ready(function() {
 
 	var ecoSpan = document.getElementById('price-eco');	
 	var stdSpan = document.getElementById('price-std');	
-	var prmSpan = document.getElementById('price-prm');	
 
  	var lang = document.documentElement.lang;
 
  	if (lang=="en") {
-		price_eco = [18, 17, 16, 15, 14, 13, 12, 11];
-		price_std = [28, 27, 26, 25, 24, 23, 22, 21];
-		price_prm = [38, 37, 36, 35, 34, 33, 32, 31];
+		price_eco = [22, 20, 19, 18, 17, 16, 14];
+		price_std = [50, 36, 31, 27, 24, 21, 19];
 	} else {
-		price_eco = [390, 355, 315, 300, 290, 280, 270, 255]
-		price_std = [850, 670, 514, 499, 470, 455, 405, 395]
-		price_prm = [1290, 990, 890, 740, 630, 580, 530, 490]
+		price_eco = [620, 570, 530, 504, 480, 440, 390];
+		price_std = [1390, 1010, 880, 745, 670, 590, 540];
 	}
 
 	function setOrderValues(pricingPlan) {
@@ -62,11 +59,6 @@ $( document ).ready(function() {
 				span=stdSpan;
 				if (lang=="ua") pricingPlan = "Стандарт"
 				if (lang=="ru") pricingPlan = "Стандарт"
-				break;
-			case "Premium":
-				span=prmSpan;
-				if (lang=="ua") pricingPlan = "Преміум"
-				if (lang=="ru") pricingPlan = "Премиум"
 				break;
 		}
 
@@ -85,15 +77,11 @@ $( document ).ready(function() {
 	$( "#std-btn" ).click(function() {
 		setOrderValues("Standard")
 	});
-	$( "#prm-btn" ).click(function() {
-		setOrderValues("Premium")
-	});
 
 	// When the slider value changes, update the input and span
 	range.noUiSlider.on('update', function( values, handle ) {
 		ecoSpan.innerHTML = price_eco[(values[handle] | 0)-2];
 		stdSpan.innerHTML = price_std[(values[handle] | 0)-2];
-		prmSpan.innerHTML = price_prm[(values[handle] | 0)-2];
 		document.getElementById('submit-form').style.display = "none";
 	});	
 

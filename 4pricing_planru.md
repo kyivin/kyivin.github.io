@@ -17,8 +17,7 @@ lang: ru
       <tr>
         <th class="tl tl2"></th>
         <th class="product" style="border-top-left-radius: 5px; border-left:0px;">Эконом</th>
-        <th class="product">Стандарт</th>
-        <th class="product" style="border-top-right-radius: 5px; border-right:0px;">Премиум</th>
+        <th class="product" style="border-top-right-radius: 5px; border-right:0px;">Стандарт</th>
       </tr>
       <tr>
         <th>Цена с человека в день</th>
@@ -29,11 +28,6 @@ lang: ru
         </th>
         <th class="price-info">
           <div class="price-now"><span id="price-std">$ Price</span>
-          <span> </span>
-          </div>
-        </th>
-        <th class="price-info">
-          <div class="price-now"><span id="price-prm">$ Price</span>
           <span> </span>
           </div>
         </th>
@@ -48,6 +42,14 @@ lang: ru
         <td>Проживание</td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td colspan="3">Завтраки</td>
+      </tr>
+      <tr class="compare-row">
+        <td>Завтраки</td>
+        <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
@@ -56,7 +58,6 @@ lang: ru
       </tr>
       <tr>
         <td>Услуги гида</td>
-        <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
@@ -68,7 +69,6 @@ lang: ru
         <td>Пешие экскурсии</td>
         <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
-        <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
         <td> </td>
@@ -78,26 +78,23 @@ lang: ru
         <td>Автобусные экскурсии</td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td colspan="4">Экскурсия в Лавру</td>
+      </tr>
+      <tr>
+        <td>Экскурсия в Лавру</td>
+        <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
         <td> </td>
-        <td colspan="3">Трансфер</td>
+        <td colspan="3">Трансферы</td>
       </tr>
       <tr class="compare-row">
-        <td>Трансфер</td>
+        <td>Трансферы</td>
         <td><span>–</span></td>
-        <td><i class="fa fa-check"></i></td>
-        <td><i class="fa fa-check"></i></td>
-      </tr>
-      <tr>
-        <td> </td>
-        <td colspan="4">Экскурсии в Лавру</td>
-      </tr>
-      <tr>
-        <td>Экскурсии в Лавру</td>
-        <td><span>–</span></td>
-        <td><i class="fa fa-check"></i></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
       <tr>
@@ -106,37 +103,6 @@ lang: ru
       </tr>
       <tr class="compare-row">
         <td>Расширенная экскурсионная программа</td>
-        <td><span>–</span></td>
-        <td><span>–</span></td>
-        <td><i class="fa fa-check"></i></td>
-      </tr>
-      <tr>
-        <td> </td>
-        <td colspan="3">Полное сопровождение автотранспортом</td>
-      </tr>
-      <tr>
-        <td>Полное сопровождение автотранспортом</td>
-        <td><span>–</span></td>
-        <td><span>–</span></td>
-        <td><i class="fa fa-check"></i></td>
-      </tr>
-      <tr>
-        <td> </td>
-        <td colspan="3">Завтраки (опционально)</td>
-      </tr>
-      <tr class="compare-row">
-        <td>Завтраки (опционально)</td>
-        <td><span>–</span></td>
-        <td><i class="fa fa-check"></i></td>
-        <td><i class="fa fa-check"></i></td>
-      </tr>
-      <tr>
-        <td> </td>
-        <td colspan="3">Ужины (опционально)</td>
-      </tr>
-      <tr>
-        <td>Ужины (опционально)</td>
-        <td><span>–</span></td>
         <td><span>–</span></td>
         <td><i class="fa fa-check"></i></td>
       </tr>
@@ -147,7 +113,6 @@ lang: ru
         <td></td>
         <td><a id="eco-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
         <td><a id="std-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
-        <td><a id="prm-btn" href="#order" class="btn btn-row">Заказать<span class="hide-mobile"></span></a></td>
       </tr>
     </tbody>
   </table>
